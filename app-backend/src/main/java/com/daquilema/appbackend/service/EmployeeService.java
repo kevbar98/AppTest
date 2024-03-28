@@ -4,6 +4,8 @@ import com.daquilema.appbackend.dto.EmployeeDto;
 
 public interface EmployeeService {
 	EmployeeDto createEmployee(EmployeeDto employeeDto);
-	
+
+	EmployeeDto getEmployeeByUsuario(String usuario);
+
 
 }
